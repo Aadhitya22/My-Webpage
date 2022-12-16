@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon-A.ico">
     <title>Aadhitya Kumar</title>
 </head>
 
@@ -15,139 +16,170 @@
 
     </header>
 
+
     <!-- Landing page -->
-    <table>
-        <tr>
-            <td>
-                <img class="profile-picture" src="/Images/me.png" alt="A picture of me">
-            </td>
-            <td>
-                <h1>Hi! I'm Aadhitya Kumar</h1>
-                <p><em>an aspiring <strong>web developer</strong></em></p>
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <section class="main">
+        <div>
+            <h1 class="main-heading">Hi! I'm <span class="my-name">Aadhitya</span></h1>
+            <p class="main-text"><em>an aspiring <strong>web developer</strong></em></p>
+            <img class="main-img" src="Images/background.png" alt="Image of a person working">
+        </div>
+    </section>
+
 
     <!-- About section -->
-    <h2>About me...</h2>
-    <p>I graduated in the year 2019, and have been in the IT industry since then.
-        I've been working as a <strong>Senior systems engineer</strong> at <strong>Infosys Ltd</strong>
-        serving as production support for the company's learning platform. <br>
-        I had always been passionate about creating things from scratch, and that tweaked an interest to get into
-        development. So, I learnt the basis from Udemy where I took up a MERN stack course. <br>
-        And, right now, I'm looking for challenging opportunities where I can implement all my learnings, learn more,
-        and start contributing.
-    </p>
-    <hr>
+    <section class="about">
+        <div>
+            <h2 class="about-heading">About me...</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img class="about-picture" src="Images/me.png" alt="A picture of me">
+                    </td>
+                    <td>
+                        <p class="about-text">I graduated in the year 2019, and have been in the IT industry since then.
+                            I've been working as a <strong>Senior systems engineer</strong> at <strong>Infosys</strong>
+                            serving as production support for the company's learning platform. <br>
+                            I had always been passionate about creating things from scratch, and that tweaked an
+                            get into development. So, I learnt the basics from Udemy, where I took up a MERN stack
+                            course. <br>
+                            And, right now, I'm looking for challenging opportunities where I can implement all my
+                            learnings, learn
+                            more,
+                            and start contributing.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
 
     <!-- Experience section -->
-    <h2>My work experience</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Time period</th>
-                <th>Role</th>
-                <th>Organisation</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Dec 2019-Aug 2020</td>
-                <td>Systems Engineer Trainee</td>
-                <td>Infosys Ltd.</td>
-            </tr>
-            <tr>
-                <td>Aug 2020-Dec 2021</td>
-                <td>Systems Engineer</td>
-                <td>Infosys Ltd.</td>
-            </tr>
-            <tr>
-                <td>Dec 2021-Aug 2022</td>
-                <td>Senior Systems Engineer</td>
-                <td>Infosys Ltd.</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
+    <section class="experience">
+        <div>
+            <h2 class="experience-heading">My work experience</h2>
+            <table class="work-table">
+                <thead>
+                    <tr class="exp-header">
+                        <th>Time period</th>
+                        <th>Role</th>
+                        <th>Organisation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dec 2019-Aug 2020</td>
+                        <td>Systems Engineer Trainee</td>
+                        <td>Infosys Ltd.</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2020-Dec 2021</td>
+                        <td>Systems Engineer</td>
+                        <td>Infosys Ltd.</td>
+                    </tr>
+                    <tr>
+                        <td>Dec 2021-Aug 2022</td>
+                        <td>Senior Systems Engineer</td>
+                        <td>Infosys Ltd.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
 
     <!-- Skills section -->
-    <h2>My Skillset</h2>
-    <table>
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>HTML</td>
-                        <td>🔵🔵🔵🔵⚪</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>🔵🔵🔵🔵⚪</td>
-                    </tr>
-                    <tr>
-                        <td>Bootstrap</td>
-                        <td>🔵🔵🔵🔵🔵</td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>🔵🔵🔵🔵⚪</td>
-                    </tr>
-                    <tr>
-                        <td>JQuery</td>
-                        <td>🔵🔵🔵🔵⚪</td>
-                    </tr>
-                    <tr>
-                        <td>React</td>
-                        <td>🔵🔵🔵⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>Angular</td>
-                        <td>🔵⚪⚪⚪⚪</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Node.js</td>
-                        <td>🔵🔵🔵⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>Express.js</td>
-                        <td>🔵🔵🔵⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>MongoDB</td>
-                        <td>🔵🔵🔵🔵⚪</td>
-                    </tr>
-                    <tr>
-                        <td>MySQL</td>
-                        <td>🔵🔵⚪⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>PostgreSQL</td>
-                        <td>🔵🔵⚪⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td>🔵🔵⚪⚪⚪</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>🔵🔵⚪⚪⚪</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <section class="skills">
+        <div>
+            <h2>My Skillset</h2>
+            <table class="skill-outer-table">
+                <tr>
+                    <td>
+                        <table class="skill-inner-table">
+                            <tr>
+                                <td>HTML</td>
+                                <td>🔵🔵🔵🔵⚪</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>🔵🔵🔵🔵⚪</td>
+                            </tr>
+                            <tr>
+                                <td>Bootstrap</td>
+                                <td>🔵🔵🔵🔵🔵</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>🔵🔵🔵🔵⚪</td>
+                            </tr>
+                            <tr>
+                                <td>JQuery</td>
+                                <td>🔵🔵🔵🔵⚪</td>
+                            </tr>
+                            <tr>
+                                <td>React</td>
+                                <td>🔵🔵🔵⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>Angular</td>
+                                <td>🔵⚪⚪⚪⚪</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="skill-inner-table">
+                            <tr>
+                                <td>Node.js</td>
+                                <td>🔵🔵🔵⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>Express.js</td>
+                                <td>🔵🔵🔵⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>MongoDB</td>
+                                <td>🔵🔵🔵🔵⚪</td>
+                            </tr>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>🔵🔵⚪⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>PostgreSQL</td>
+                                <td>🔵🔵⚪⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>🔵🔵⚪⚪⚪</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>🔵🔵⚪⚪⚪</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
 
-    <hr>
 
     <!-- Projects section -->
-    <h2>Projects</h2>
-    <p>Here are some of the simple projects that I've worked on</p>
-    <hr>
+    <section class="projects">
+        <div>
+            <h2>Projects</h2>
+            <div class="project-list">
+                <ul>
+                    <li><a href="https://aadhitya22.github.io/Dice-game/" target="_blank">A game of dice</a></li>
+                    <li><a href="https://aadhitya22.github.io/Drumkit/" target="_blank">Drumkit</a></li>
+                    <li><a href="https://aadhitya22.github.io/Memory-game/" target="_blank">A memory game</a></li>
+                    <li>Weather app</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer section -->
     <footer>
