@@ -59,7 +59,7 @@ a {
 }
 
 .main-heading {
-  margin: 20% auto auto 15%;
+  margin: 20% auto auto 10%;
   font-size: 2.5rem;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .main-text {
-  margin: 5% auto auto 20%;
+  margin: 5% auto auto 15%;
   font-size: 1.5rem;
 }
 
@@ -146,13 +146,12 @@ a {
   bottom: 10px;
   float: right;
   margin-left: 90%;
-  width: 50px;
-  height: 50px;
-  font-size: 12px;
+  width: 35px;
+  height: 35px;
   border-color: rgba(8, 8, 8, 0.244);
   background-color: rgba(112, 101, 96, 0.525);
-  padding: 0.5px;
-  border-radius: 4px;
+  padding: 2px;
+  border-radius: 100%;
 }
 /*On Hover Color Change*/
 #floating-btn:hover {
