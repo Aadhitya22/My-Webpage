@@ -1,12 +1,19 @@
 body {
-  font-family: cursive;
+  font-family: Montserrat;
   margin: 0;
 }
 
+h1 {
+  font-family: Ubuntu;
+  font-weight: 500;
+}
+
 h2 {
-  margin-top: 0;
+  margin: 0 auto 0 1.5rem;
+  text-align: left;
+  font-family: Ubuntu;
+  font-family: 700;
   font-size: 2.5rem;
-  margin-left: 6rem;
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
@@ -35,35 +42,36 @@ a {
 
 .nav-item {
   padding: 0 10px 0 60px;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: 300;
 }
 
 .main {
   background-color: #f8ede3;
+  padding: 2% 0 7%;
 }
 
 .main-img {
-  width: 50%;
-  margin: 20px 0 0 650px;
-  padding-bottom: 40px;
+  width: 100%;
+  top: 20%;
+  right: 3%;
 }
 
 .main-heading {
-  display: inline-block;
-  position: absolute;
-  margin: 230px 0 0 160px;
+  margin: 25% 0 0 20%;
   font-size: 2.5rem;
 }
 
 .my-name {
   color: #85586f;
-  font-size: 4rem;
+  font-size: 6rem;
+  padding-left: 10px;
+  font-family: "Dancing script";
 }
 
 .main-text {
-  display: inline-block;
-  position: absolute;
-  margin: 330px 0 0 190px;
+  margin: 5% 0 0 25%;
   font-size: 1.5rem;
 }
 
@@ -74,36 +82,35 @@ a {
 }
 
 .about-picture {
-  height: 60%;
-  width: 60%;
+  height: 300px;
+  width: 300px;
+  display: block;
   border-radius: 100%;
   border-color: white;
   border-style: double;
   border-width: 5px;
-  margin-left: 4rem;
-  margin-bottom: 5rem;
+  margin: 1rem auto 3rem auto;
 }
 
 .about-text {
-  margin-right: 3rem;
-  font-size: 1.5rem;
-  margin-top: 0;
+  margin: 0 1.5rem;
+  text-align: justify;
+  font-size: 1.3rem;
   padding-bottom: 4rem;
 }
 
 /* Experience section */
 .experience {
   background-color: #f8ede3;
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
 }
 
 .work-table {
-  margin-left: 125px;
+  margin: 0 auto;
   border-color: #85586f;
   border-style: dashed;
   width: 80%;
   text-align: center;
-  padding-bottom: 10px;
   border-spacing: 0;
 }
 
@@ -115,17 +122,11 @@ a {
 /* Skills section */
 .skills {
   background-color: #dfcabc;
+  padding-bottom: 30px;
 }
 
-.skill-outer-table {
-  margin-left: 125px;
-  margin-right: 125px;
-}
-
-.skill-inner-table {
-  margin-left: 125px;
-  margin-right: 125px;
-  margin-bottom: 30px;
+.skill-table {
+  margin: 0 auto;
 }
 
 /* Projects section */
@@ -136,7 +137,7 @@ a {
 
 .project-list {
   padding-left: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 /* Back-to-top button */
