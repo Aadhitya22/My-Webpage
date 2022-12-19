@@ -59,7 +59,7 @@ a {
 }
 
 .main-heading {
-  margin: 25% 0 0 20%;
+  margin: 20% auto auto 15%;
   font-size: 2.5rem;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .main-text {
-  margin: 5% 0 0 25%;
+  margin: 5% auto auto 20%;
   font-size: 1.5rem;
 }
 
@@ -167,6 +167,6 @@ a {
 }
 
 .social-icons {
-  padding: 20px;
+  padding: 20px 10px;
   margin-top: 10px;
 }
